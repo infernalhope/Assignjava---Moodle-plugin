@@ -1,6 +1,7 @@
 # Assignjava---Moodle-plugin
 
 [Česky]
+
 Java úkol (assignjava) je postaven na klasickém pluginu "úkol" (assign) poskytovaného Moodlem, proto je práce s Java úkoly téměř stejná.
 
 Studenti vždy musí odevzdat JAR soubor. Je povoleno, aby byl JAR soubor, popřípadě celý projekt obsahující JAR soubor, zabalen do ZIP souboru.
@@ -13,6 +14,7 @@ Bližší informace o pluginu lze nalézt v diplomové práci:
 RAUNIGR, Petr. Moodle addon jako nástroj pro automatizovanou kontrolu domácích úkolů z programování (Java). Ostrava, 2017. Diplomová práce. Ostravská univerzita v Ostravě. Vedoucí práce RNDr. Marek Vajgl, Ph. D..
 
 [English]
+
 Java assignment (assignjava) is based on the default assignment (assign) provided by Moodle and thus usage of this plugin is almost the same.
 
 Students always has to submit their homework as a JAR file. It's allowed to submit JAR file, alternatively a whole project containing the JAR file, packed in a ZIP file.
