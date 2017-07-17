@@ -1,6 +1,6 @@
 # Assignjava---Moodle-plugin
 
-[Česky]
+# [Česky]
 
 Java úkol (assignjava) je postaven na klasickém pluginu "úkol" (assign) poskytovaného Moodlem, proto je práce s Java úkoly téměř stejná.
 
@@ -13,7 +13,7 @@ Po odevzdání domácího úkolu studenti ihned uvidí výsledky z automatizovan
 Bližší informace o pluginu lze nalézt v diplomové práci:
 RAUNIGR, Petr. Moodle addon jako nástroj pro automatizovanou kontrolu domácích úkolů z programování (Java). Ostrava, 2017. Diplomová práce. Ostravská univerzita v Ostravě. Vedoucí práce RNDr. Marek Vajgl, Ph. D..
 
-[English]
+# [English]
 
 Java assignment (assignjava) is based on the default assignment (assign) provided by Moodle and thus usage of this plugin is almost the same.
 
