@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Permissions>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>java.version</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>java.vendor</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>java.vendor.url</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>java.class.version</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>os.name</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>os.version</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>os.arch</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>file.separator</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>path.separator</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>line.separator</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>java.specification.version</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>java.specification.vendor</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>java.specification.name</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>java.vm.specification.version</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>java.vm.specification.vendor</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>java.vm.specification.name</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>java.vm.version</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>java.vm.vendor</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>java.vm.name</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>user.dir</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>sun.util.logging.disableCallerCheck</parameter>
+    </permission>
+    <permission type="LoggingPermission">
+        <actions></actions>
+        <parameter>control</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>java.util.logging.SimpleFormatter.format</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>user.language.format</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>user.script.format</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>user.country.format</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>user.variant.format</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>java.locale.providers</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>java.home</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>java.util.currency.data</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>user.timezone</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>sun.timezone.ids.oldmapping</parameter>
+    </permission>
+    <permission type="RuntimePermission">
+        <actions></actions>
+        <parameter>accessDeclaredMembers</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>java.util.secureRandomSeed</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>javax.xml.bind.context.factory</parameter>
+    </permission>
+    <permission type="PropertyPermission">
+        <actions>read</actions>
+        <parameter>javax.xml.bind.JAXBContext</parameter>
+    </permission>
+    <permission type="FilePermission">
+        <actions>read</actions>
+        <parameter>\-</parameter>
+    </permission>
+</Permissions>

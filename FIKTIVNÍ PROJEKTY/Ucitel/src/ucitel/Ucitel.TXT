@@ -1,0 +1,78 @@
+
+package ucitel;
+
+import Annotations.InjectInstaceOfClass;
+import testmanager.TestManager;
+
+public class Ucitel 
+{
+    
+    /*  test implementace rozhraní:
+        zadání testu: existuje rozhraní, které má student implementovat
+        učitelské ověření testu:
+        - vlastní funkce, kde daný objekt přijde jako instance
+    */
+
+    void fce(Interface object)
+    {
+        // blablabla
+        int x = object.getSomething();
+        testEqual(x,5); // neúspěch = selhání testu, stejně jako v TDD
+        
+    }
+    
+    
+
+
+
+
+    /*  test implementace metody
+        zadání testu: v třídě "A" implementujte metodu "Y", která má následující
+        parametry - int a String a vrací double reprezentující ...cosi
+        učitelské ověření testu:
+        - vlastní funkce, kde se vytvoří instance objektu studenta
+    */
+
+    @InjectInstaceOfClass(name="Student")
+    void fce2 (Object object)
+    {
+        int vstupA = 5;
+        String vstupB = "ahoJ";        
+        double vystup = (double)TestManager.invoke(object, "myMethod", new Object []{vstupA,vstupB}); 
+        // selhání, tj. ... neexistuje funkce, nemá správné parametry, nic to nevrátí
+        // způsobí chybu a tedy selhání testu
+        System.out.println("fce2, myMethod ..." +"Vystup: " +vystup +", predpoklad: 729572.20752" );
+        testEqual(vystup, 729572.20752);
+        // test toho co mělo vyjít, jinak selhání testu jako v předchozím případu
+
+    }
+    
+
+
+
+    // test implementace statické metody
+    // stejné jako předchozí, jenom chceme statickou metodu
+    @InjectInstaceOfClass(name="Student")
+    void fce3 (Object object) // tady bude asi null, nebo ten parametr tam nebude vubec
+    { 
+        int vstupA = 5;
+        String vstupB = "ahoJ";        
+        double vystup = (double)TestManager.invokeStatic("myMethod2", new Object []{vstupA,vstupB}); 
+        // selhání, tj. ... neexistuje funkce, nemá správné parametry, nic to nevrátí
+        // způsobí chybu a tedy selhání testu
+        System.out.println("fce3, myMethod2 ..." +"Vystup: " +vystup +", predpoklad: 729572.20752" );
+        testEqual(vystup, 729572.20752); 
+        // test toho co mělo vyjít, jinak selhání testu jako v předchozím případu
+    }
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
